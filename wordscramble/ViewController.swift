@@ -28,7 +28,7 @@ class ViewController: UITableViewController {
             }
         }
         if allWords.isEmpty {
-            allWords = ["nothing"]
+            allWords = ["nothinghere"]
         }
         startGame()
     }

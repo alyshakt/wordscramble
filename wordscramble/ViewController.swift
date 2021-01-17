@@ -28,7 +28,7 @@ class ViewController: UITableViewController {
             }
         }
         if allWords.isEmpty {
-            allWords = ["silkworm"]
+            allWords = ["nothing"]
         }
         startGame()
     }
@@ -132,8 +132,7 @@ class ViewController: UITableViewController {
         }else if whichtype == "used"{
             errorTitle = "Word used already..."
             errorMessage = "Be more original!"
-        }
-        else{
+        }else{
             errorTitle = "Try again."
             errorMessage = "Use words with at least 3 letters and make sure you spell the word correctly!"
         }
